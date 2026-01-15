@@ -26,15 +26,31 @@ video {
 
 .reel-header {
 	position: absolute;
-	align-items: center;
-	justify-content: space-between;
 	top: 0;
 	left: 0;
 	right: 0;
-
-	/* Inserisci qui sotto 
-	le tue regole, se necessario. */
 }
+
+/*=====MY RULES=====*/
+.top-menu {
+	display: flex;
+	align-items: center;
+	color: white;
+	justify-content: space-between;
+	font-size: 28px;
+	padding: 10px;
+}
+
+.tabs {
+	display: flex;
+	gap: 20px;
+	font-size: 20px;
+}
+
+.gray {
+	color: gray;
+}
+/*=====///////=====*/
 
 /* Footer */
 
@@ -44,21 +60,69 @@ footer {
 	right: 0;
 	bottom: 0;
 	color: #fff;
-
-	/* Inserisci qui sotto 
-	le tue regole, se necessario. */
+}
+/*=====MY RULES=====*/
+.bottomnavbar {
+ display: flex;
+ justify-content: space-between;
+ background-color: black;
+ padding-top: 15px;
 }
 
+.bottomnavbar i {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;           
+}
+
+.bottomnavbar span {
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+/*=====///////=====*/
 /* Sidebar */
 .sidebar {
 	padding: 0 16px;
 	position: absolute;
 	right: 0;
 	top: 40%;
-
-	/* Inserisci qui sotto 
-	le tue regole, se necessario. */
+/*=====MY RULES=====*/
+	color: white;
+	text-align: center;
 }
+
+.bologo {
+	width: 35px;
+	border-radius: 50%;
+	border: 1px solid white;
+}
+
+.stat {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.stat i {
+	font-size: 30px;
+}
+
+.stat span {
+	font-size: 30px;
+}
+
+.plus {
+	background-color: red;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 0px;
+	bottom: 100px;
+}
+/*=====///////=====*/
 
 /* ---------------------
 Regole per evidenziare i blocchi 
@@ -74,10 +138,4 @@ da rimuovere una volta concluso
 	min-height: 450px;
 	border: 2px dashed #ff0;
 }
-
-.debug .reel-header {
-	min-height: 50px;
-	border: 2px dashed #fff;
-}
-
 /* --------------------- */

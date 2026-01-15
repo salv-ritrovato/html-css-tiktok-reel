@@ -1,49 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bool Tok</title>
+    <link rel="icon" href="assets/img/booltok_logo.png" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bool Tok</title>
-  <link rel="icon" href="assets/img/booltok_logo.png">
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
 
+    <!-- TikTok Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
+  <body>
+    <!-- Container della pagina, necessario per via del layout particolare -->
+    <div class="reel-page debug">
+      <video src="assets/video/coder.mp4" autoplay muted loop></video>
 
-  <!-- TikTok Sans -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap"
-    rel="stylesheet">
+      <!-- Header -->
+      <header class="reel-header">
+        <div class="top-menu">
+          <i class="bi bi-play-btn"></i>
+          <div class="tabs">
+            <p class="gray">Esplora</p>
+            <p class="gray">Seguiti</p>
+            <p>Per Te</p>
+          </div>
+          <i class="bi bi-search"></i>
+        </div>
+      </header>
 
-  <!-- Stylesheet -->
-  <link rel="stylesheet" href="css/style.css">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <div class="stat">
+          <img class="bologo" src="/assets/img/boolean_logo.png" />
+          <div class="plus">+</div>
+        </div>
+        <div class="stat">
+          <i class="bi bi-heart-fill"></i>
+          <div>588</div>
+        </div>
+        <div class="stat">
+          <i class="bi bi-chat-dots-fill"></i>
+          <div>13</div>
+        </div>
+        <div class="stat">
+          <i class="bi bi-bookmark-fill"></i>
+          <div>638</div>
+        </div>
+        <div class="stat">
+          <i class="bi bi-arrow-up-right-circle-fill"></i>
+          <div>491</div>
+        </div>
+      </div>
 
-</head>
-
-<body>
-  <!-- Container della pagina, necessario per via del layout particolare -->
-  <div class="reel-page debug">
-    <video src="assets/video/coder.mp4" autoplay muted loop></video>
-
-    <!-- Header -->
-    <header class="reel-header">
-
-    </header>
-
-    <!-- Sidebar -->
-    <div class="sidebar">
-
+      <!-- Footer -->
+      <footer>
+        <div class="description">
+          <strong>boolean.careers</strong>
+          <p>
+            Prova il Fundamentals Camp, 20 ore di corso<br />
+            gratuito per...
+          </p>
+          <strong>Vedi altro</strong>
+        </div>
+        <div class="bottomnavbar">
+          <i class="bi bi-house-fill"><span>Home</span></i>
+          <i class="bi bi-people"><span>Amici</span></i>
+          <button><i class="bi bi-plus"></i></button>
+          <i class="bi bi-chat-square"><span>Posta in arrivo</span></i>
+          <i class="bi bi-person"><span>Profilo</span></i>
+        </div>
+      </footer>
     </div>
-
-    <!-- Footer -->
-    <footer>
-
-    </footer>
-  </div>
-
-</body>
-
+  </body>
 </html>

@@ -67,13 +67,14 @@ footer {
  justify-content: space-between;
  background-color: black;
  padding-top: 15px;
+ color: gray;
 }
 
 .bottomnavbar i {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 24px;           
+  font-size: 24px;     
 }
 
 .bottomnavbar span {
@@ -91,16 +92,17 @@ footer {
 /*=====MY RULES=====*/
 	color: white;
 	text-align: center;
+	margin-top: 100px;
 }
 
 .bologo {
-	width: 35px;
+	width: 60px;
 	border-radius: 50%;
 	border: 1px solid white;
 }
 
 .stat {
-	margin-top: 10px;
+	margin-top: 30px;
 	margin-bottom: 10px;
 	position: relative;
 }
@@ -119,8 +121,10 @@ footer {
 	width: 20px;
 	height: 20px;
 	position: absolute;
-	top: 0px;
-	bottom: 100px;
+	transform: translatey(-20px);
+	left: 20px;
+	bottom: -20px;
+	font-size: 30px;
 }
 /*=====///////=====*/
 
@@ -131,11 +135,5 @@ da rimuovere una volta concluso
 .debug footer {
 	min-height: 100px;
 	border: 2px dashed #fff;
-}
-
-.debug .sidebar {
-	min-width: 80px;
-	min-height: 450px;
-	border: 2px dashed #ff0;
 }
 /* --------------------- */

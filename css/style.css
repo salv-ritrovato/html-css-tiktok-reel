@@ -98,13 +98,13 @@ footer {
 .bologo {
 	width: 60px;
 	border-radius: 50%;
-	border: 1px solid white;
+	border: 2px solid white;
+	position: relative;
 }
 
 .stat {
 	margin-top: 30px;
 	margin-bottom: 10px;
-	position: relative;
 }
 
 .stat i {
@@ -120,11 +120,13 @@ footer {
 	border-radius: 50%;
 	width: 20px;
 	height: 20px;
-	position: absolute;
-	transform: translatey(-20px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	translate: transformY(-100px);
+	position: relative;
 	left: 20px;
-	bottom: -20px;
-	font-size: 30px;
+	bottom: 20px;
 }
 /*=====///////=====*/
 
